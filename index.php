@@ -1,5 +1,5 @@
 <?php
-
+//chamar páginas 
 $pagina = 'home';
 if(isset($_GET['i'])){//isset — Informa se a variável foi iniciada
     $pagina = addslashes($_GET['i']);//trata string recebida  verificand o se existe m caracteres especiais
