@@ -7,11 +7,13 @@
 <video autoplay loop muted playsinline src="app\images\Hikvision.mp4"></video>
 </section>
 <div class="fundo-branco">
-	<h2>Quem Somos<h2>
-	<div class="imagem">
-	<img width="400 px" src="app/images/Loja.png">
+	<div class="texto">
+		<h2>Quem Somos:<h2>
 	</div>
 	
+
+	<div class="imagem">
+	<img   width="400 px" src="app/images/Loja.png">
 	</div>
 	
 </div>
