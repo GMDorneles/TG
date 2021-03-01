@@ -272,68 +272,58 @@ nav ul li a{
             justify-content:space-between;
 
         }
-    
+        .sobre{
+            
+            width: 875px;
+            position: relative;
+            top:42.3%;
+            left: 50%;
+            transform: translatex(-50%);
+        }
     
 
         /* footer*/
         footer{
-            background-color: black;
-            padding-top: 5em;
-            padding: bottom 40px;
-            border-top: 5px solid #b30101;
-            font-family: Arial;
+            
+            bottom: 0px;
+            width: 100%;
+            background: black;
+            color: white;
         }
-        footer h2, footer p, footer a, footer span{
-            color: #ffffff;
+        .main-content{
+            display: flex;
         }
-        footer h2{
-            font-weight: 400;
+        .main-content .box{
+            flex-basis: 50%;
+            padding: 10px 20px;
         }
-        footer ul{
-            padding: 0;
+        .box h2{
+            font-size: 1.12rem;
+            font-weight: 600;
+            text-transform: uppercase;
         }
-        footer li{
-            list-style:none;
+        .box .content{
+            margin: 20px 0 0 0;
         }
-        .footer-box{
-            width: 31%;
-            padding:1%;
-            float: left;
+        .left .content p{
+            text-align: justify;
         }
-        footer .wrapper:after{
-            clear:both;
-            content:"";
-            display: block;
+        .left .content .social{
+            margin: 20px 0 0 0;
         }
-        .company-footer{
-            width: 80%;
+        .left .content .social a{
+            padding: 0 2px;
         }
-      
-        .company-footer h2{
-            margin-top: 20px;
+        .left .content .social a span{
+            height: 40px;
+            white: 40px;
+            background: #1a1a1a;
+            text-align: center;
+            font-size: 18px;
+            border-radius:5px;
+            transition: 0.3s;
         }
-        /*.company-footer h2, .company-footer p {
-            margin-bottom: 20px;
-        }*/
-        .footer-list li{
-            margin-bottom: 15px;
+        .left .content .social a span:hover{
+            background-color: #f1202f;
         }
-        .footer-list a{
-            transition: .5s;
-        }
-        .footer-list a:hover{
-            color: #f7f7f7;
-        }
-        .footer-list li:after{
-            clear:both;
-            content: "";
-            display: block;
-        }
-        .articles-footer{
-            width: 80%;
-        }
-        .footer-list.footer-article-list span{
-            display: block;
-            float: none;
-        }
-        
+
